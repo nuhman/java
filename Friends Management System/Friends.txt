@@ -1,0 +1,34 @@
+create database friends;
+
+
+create table friends_signup(
+ 
+ user varchar(20) unique,
+ 
+ password varchar(20),
+ 
+ phone_no BIGINT primary key
+);
+
+
+
+
+create table friends_bank(
+
+
+
+phone_no BIGINT primary key,
+
+
+
+name varchar(20),
+
+
+
+balance integer,
+
+
+
+id BIGINT references friends_signup(phone_no)
+
+);

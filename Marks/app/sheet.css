@@ -1,0 +1,23 @@
+#marks_calculator_pane{
+    -fx-background-color:#60ccfb;
+}
+#cal_pane{
+   -fx-background-color:#99ccff;
+}
+#operator{
+   -fx-background-color:#00ccff;
+}
+#marks_calculator_label{
+    -fx-text-fill:#000000;
+    -fx-font: 12px "Serif";
+}
+
+#error_red{
+    -fx-background-color:#ff0000;
+}
+#compute{
+    -fx-background-color: #666666;
+    -fx-font: 16px "Serif";
+    -fx-text-alignment:center;
+    -fx-text-fill:#ffffff;
+}

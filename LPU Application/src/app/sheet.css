@@ -1,0 +1,103 @@
+#hamburger{
+    -fx-background-color: #555555;
+}
+#hamburger_button{
+    -fx-font: 16px "Serif";
+    -fx-text-alignment:center;
+    -fx-text-fill:#ffffff;
+    -fx-background-color: #555555;
+}
+#back_ground{
+    -fx-background-color: #ffffff;
+}
+#hamburger_button:hover{
+    -fx-background-color: #dddddd;
+}
+#ham_button{
+    -fx-background-color: transparent;
+}
+#ham_button:hover{
+    -fx-background-color: #cecece;
+}
+#time_table_pane{
+    -fx-background-color: #dddddd;
+}
+#time_table_grid{
+    -fx-background-color: #cecece;
+    -fx-border-insets: 10,10,10,10;
+}
+#time_period{
+    -fx-border-color: #66ff99;
+}
+#selected{
+    -fx-background-color: #66ff99;
+}
+#short_attendance_pane{
+    -fx-background-color: #ffffff;
+}
+#back_short_attendance{
+    -fx-background-color: #ffffff;
+}
+
+#back_short_attendance:hover{
+    -fx-background-color: #dddddd;
+}
+#attendance_pane{
+    -fx-background-color: #ffffff;
+}
+#attendance_pane_headers{
+    -fx-font: 20px "Serif";
+    -fx-text-fill:#666666;
+}
+
+#interactiveAttendance{
+    -fx-background-color: #ffffff;
+}
+#marks_calculator_pane{
+    -fx-background-color:#60ccfb;
+}
+#cal_pane{
+   -fx-background-color:#99ccff;
+}
+#operator{
+   -fx-background-color:#00ccff;
+}
+#marks_calculator_label{
+    -fx-text-fill:#000000;
+    -fx-font: 12px "Serif";
+}
+
+#error_red{
+    -fx-background-color:#ff0000;
+}
+#compute{
+    -fx-background-color: #666666;
+    -fx-font: 16px "Serif";
+    -fx-text-alignment:center;
+    -fx-text-fill:#ffffff;
+}
+#logger{
+    -fx-background-color: #ccffff;
+}
+#log_pane{
+    -fx-background-color: #666666;
+}
+#login{
+    -fx-font: 16px "Serif";
+    -fx-text-alignment:center;
+}
+#text{
+    -fx-font: 26px "Serif";
+    -fx-text-alignment:center;
+    -fx-text-fill:#ffffff;
+}
+
+#rect{
+    -fx-fill: #666666;
+}
+#warn{
+    -fx-fill:#ff0000;
+}
+#show_rect{
+    -fx-fill: #00ccff;
+}
